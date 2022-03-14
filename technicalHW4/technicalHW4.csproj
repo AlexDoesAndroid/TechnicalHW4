@@ -67,16 +67,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="defualt.aspx" />
+    <Content Include="CSRep.aspx" />
+    <Content Include="dispensing.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="vet.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="defualt.aspx.cs">
-      <DependentUpon>defualt.aspx</DependentUpon>
+    <Compile Include="CSRep.aspx.cs">
+      <DependentUpon>CSRep.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="defualt.aspx.designer.cs">
-      <DependentUpon>defualt.aspx</DependentUpon>
+    <Compile Include="CSRep.aspx.designer.cs">
+      <DependentUpon>CSRep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dispensing.aspx.cs">
+      <DependentUpon>dispensing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dispensing.aspx.designer.cs">
+      <DependentUpon>dispensing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="main.Master.cs">
       <DependentUpon>main.Master</DependentUpon>
@@ -86,6 +103,13 @@
       <DependentUpon>main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vet.aspx.cs">
+      <DependentUpon>vet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vet.aspx.designer.cs">
+      <DependentUpon>vet.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="main.Master" />

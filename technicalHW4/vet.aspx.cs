@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace technicalHW4
 {
-    public partial class defualt : System.Web.UI.Page
+    public partial class vet : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

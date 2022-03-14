@@ -10,7 +10,7 @@
 
 namespace technicalHW4
 {
-    public partial class defualt
+    public partial class vet
     {
     }
 }
